@@ -1,0 +1,141 @@
+.app {
+  width: 100%;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.search-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #646cff;
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #747bff;
+}
+
+.search-button {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #646cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search-button:hover:not(:disabled) {
+  background: #747bff;
+}
+
+.search-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ff6b6b;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ff6b6b;
+  border-radius: 8px;
+  background: rgba(255, 107, 107, 0.1);
+}
+
+.results {
+  margin-top: 2rem;
+}
+
+.results h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  transition: all 0.2s;
+  gap: 1rem;
+}
+
+.product-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: #646cff;
+}
+
+.product-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.product-item h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.product-meta {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.store {
+  color: #888;
+}
+
+.price {
+  font-weight: 600;
+  color: #646cff;
+  font-size: 1.1rem;
+}
+
+.view-link {
+  color: #646cff;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.view-link:hover {
+  background: rgba(100, 108, 255, 0.1);
+}
