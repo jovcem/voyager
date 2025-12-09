@@ -34,3 +34,5 @@ Thumbs.db
 # Exports
 exports/
 *.csv
+
+*/out/*

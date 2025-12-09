@@ -134,7 +134,7 @@ def example_4_price_history():
     # Simulate multiple price scrapes over time
     prices = [1099.99, 1049.99, 999.99, 1029.99]
     for price in prices:
-        repo.add_price(product_id, price, 'USD')
+        repo.add_price(product_id, price, 'MKD')
 
     # Get price history
     history = repo.get_price_history(product_id, limit=10)

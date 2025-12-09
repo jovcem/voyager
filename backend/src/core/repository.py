@@ -99,7 +99,7 @@ class DatabaseRepository:
 
     # Product operations
 
-    def get_or_create_product(self, store_id: int, name: str, url: str) -> int:
+    def get_or_create_product(self, store_id: int, name: str, url: str, image: str = None) -> int:
         """
         Get existing product or create a new one
 
@@ -107,6 +107,7 @@ class DatabaseRepository:
             store_id: Store ID
             name: Product name
             url: Product URL
+            image: Product image URL (optional)
 
         Returns:
             Product ID
@@ -122,12 +123,20 @@ class DatabaseRepository:
                 result = cur.fetchone()
 
                 if result:
-                    return result[0]
+                    product_id = result[0]
+                    # Update image if provided
+                    if image:
+                        cur.execute(
+                            "UPDATE products SET image = %s WHERE id = %s",
+                            (image, product_id)
+                        )
+                        conn.commit()
+                    return product_id
 
                 # Create new product
                 cur.execute(
-                    "INSERT INTO products (store_id, name, url) VALUES (%s, %s, %s) RETURNING id",
-                    (store_id, name, url)
+                    "INSERT INTO products (store_id, name, url, image) VALUES (%s, %s, %s, %s) RETURNING id",
+                    (store_id, name, url, image)
                 )
                 product_id = cur.fetchone()[0]
                 conn.commit()
@@ -267,7 +276,7 @@ class DatabaseRepository:
         Save multiple scraped products to database in a single transaction
 
         Args:
-            products: List of product dictionaries with keys: name, price, url
+            products: List of product dictionaries with keys: name, price, url, image (optional)
             source_url: Source URL where products were scraped from
 
         Returns:
@@ -275,7 +284,7 @@ class DatabaseRepository:
 
         Example:
             products = [
-                {'name': 'Product 1', 'price': 19.99, 'url': 'https://...'},
+                {'name': 'Product 1', 'price': 19.99, 'url': 'https://...', 'image': 'https://...'},
                 {'name': 'Product 2', 'price': 29.99, 'url': 'https://...'},
             ]
             saved, prices = repo.save_scraped_products(products, 'https://store.com')
@@ -303,10 +312,17 @@ class DatabaseRepository:
 
                         if result:
                             product_id = result[0]
+                            # Update image if provided
+                            image = product.get('image')
+                            if image:
+                                cur.execute(
+                                    "UPDATE products SET image = %s WHERE id = %s",
+                                    (image, product_id)
+                                )
                         else:
                             cur.execute(
-                                "INSERT INTO products (store_id, name, url) VALUES (%s, %s, %s) RETURNING id",
-                                (store_id, product['name'], product['url'])
+                                "INSERT INTO products (store_id, name, url, image) VALUES (%s, %s, %s, %s) RETURNING id",
+                                (store_id, product['name'], product['url'], product.get('image'))
                             )
                             product_id = cur.fetchone()[0]
                             products_saved += 1

@@ -1,7 +1,7 @@
 """
 Neptun-specific scraper
 """
-from .base import BaseScraper
+from ..base import BaseScraper
 
 
 class NeptunScraper(BaseScraper):
@@ -18,6 +18,26 @@ class NeptunScraper(BaseScraper):
     # Enable JavaScript rendering for Neptun
     REQUIRES_JAVASCRIPT = True
 
+    def _parse_price_to_int(self, price_text):
+        """
+        Parse price text and convert to integer (removing decimal separators)
+
+        Examples:
+        - "8.999" -> 8999
+        - "1,234" -> 1234
+        - "12.345" -> 12345
+        """
+        try:
+            # Remove common currency symbols and whitespace
+            cleaned = price_text.replace('ден', '').replace('MKD', '').strip()
+            # Remove all decimal separators (comma and period)
+            cleaned = cleaned.replace(',', '').replace('.', '')
+            # Convert to integer
+            return int(cleaned)
+        except (ValueError, AttributeError):
+            # Return None if parsing fails
+            return None
+
     def parse_products(self):
         """
         Parse products from Neptun website
@@ -27,6 +47,7 @@ class NeptunScraper(BaseScraper):
         - Product name: h2 (inside productCardBody)
         - Price: span.priceNum (inside discountPrice)
         - Product URL: a (direct child of theProduct)
+        - Image: img tag inside the product container
         """
         if not self.soup:
             return
@@ -54,14 +75,17 @@ class NeptunScraper(BaseScraper):
                     # Found Happy price container, get the price number
                     price_span = price_elem.find('span', class_='priceNum')
                     if price_span:
-                        price = price_span.get_text(strip=True)
+                        price_text = price_span.get_text(strip=True)
+                        # Convert to whole number (remove decimals)
+                        price = self._parse_price_to_int(price_text)
 
                 # Fallback to regular price if Happy price not found
                 if not price:
                     price_elem = container.find('span', class_='priceNum')
                     if price_elem:
-                        # Keep the exact price text as shown on the website
-                        price = price_elem.get_text(strip=True)
+                        price_text = price_elem.get_text(strip=True)
+                        # Convert to whole number (remove decimals)
+                        price = self._parse_price_to_int(price_text)
 
                 # Extract product URL from the anchor tag
                 product_url = None
@@ -69,12 +93,22 @@ class NeptunScraper(BaseScraper):
                 if link:
                     product_url = self._make_absolute_url(link['href'])
 
+                # Extract image URL from img tag
+                image_url = None
+                img = container.find('img')
+                if img:
+                    # Try to get src first, fallback to data-src for lazy loading
+                    image_url = img.get('src') or img.get('data-src')
+                    if image_url:
+                        image_url = self._make_absolute_url(image_url)
+
                 # Only add if we found at least name and price
                 if name and price:
                     self.products.append({
                         'name': name,
                         'price': price,
-                        'url': product_url or self.url
+                        'url': product_url or self.url,
+                        'image': image_url
                     })
 
             except Exception as e:
