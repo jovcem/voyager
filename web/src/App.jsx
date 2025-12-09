@@ -163,7 +163,7 @@ function App() {
                         <div className="font-medium">{product.name}</div>
                       </td>
                       <td className="p-4 text-muted-foreground">{product.store}</td>
-                      <td className="p-4 text-right font-semibold">
+                      <td className="p-4 text-right">
                         <span className="font-mono">{new Intl.NumberFormat('mk-MK', { minimumFractionDigits: 0 }).format(product.price)}</span> <span className="text-sm">ден</span>
                       </td>
                       <td className="p-4 text-center">
