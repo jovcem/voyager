@@ -182,14 +182,14 @@ class DatabaseRepository:
 
     # Price operations
 
-    def add_price(self, product_id: int, price: float, currency: str = 'USD') -> int:
+    def add_price(self, product_id: int, price: float, currency: str = 'MKD') -> int:
         """
         Add a new price entry
 
         Args:
             product_id: Product ID
             price: Price value
-            currency: Currency code (default: USD)
+            currency: Currency code (default: MKD)
 
         Returns:
             Price ID
