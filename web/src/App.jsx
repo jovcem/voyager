@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
-import { Search, ExternalLink, Sun, Moon } from 'lucide-react'
+import { Search, ExternalLink, Sun, Moon, X } from 'lucide-react'
 
 function App() {
   const navigate = useNavigate()
@@ -71,26 +71,28 @@ function App() {
     navigate(`/product/${productId}`)
   }
 
+  const handleClear = () => {
+    setSearchTerm('')
+    setProducts([])
+    setSelectedProductId(null)
+    sessionStorage.removeItem('lastViewedProduct')
+    setSearchParams({})
+  }
+
   return (
     <div className="min-h-screen w-full p-8">
       <div className="w-full mx-auto px-4">
-        <div className="flex items-center justify-between mb-8">
-          <h1 className="text-3xl font-bold flex-1 text-center">Product Search</h1>
+        <div className="flex justify-end mb-4">
           <Button
-            variant="outline"
+            variant="ghost"
+            size="sm"
             onClick={() => setIsDark(!isDark)}
-            className="ml-auto gap-2"
+            className="gap-1"
           >
             {isDark ? (
-              <>
-                <Sun className="h-4 w-4" />
-                Light
-              </>
+              <Sun className="h-3 w-3" />
             ) : (
-              <>
-                <Moon className="h-4 w-4" />
-                Dark
-              </>
+              <Moon className="h-3 w-3" />
             )}
           </Button>
         </div>
@@ -103,15 +105,31 @@ function App() {
             placeholder="Search products (e.g., RAM)"
             className="flex-1"
           />
-          <Button type="submit" disabled={loading} className="gap-2">
+          <Button type="submit" disabled={loading} className="gap-2 h-10">
             <Search className="h-4 w-4" />
             {loading ? 'Searching...' : 'Search'}
+          </Button>
+          <Button
+            type="button"
+            variant="outline"
+            onClick={handleClear}
+            className="gap-2 h-10"
+          >
+            <X className="h-4 w-4" />
+            Clear
           </Button>
         </form>
 
         {error && (
           <div className="max-w-2xl mx-auto mb-8 p-4 text-destructive border border-destructive rounded-md bg-destructive/10">
             Error: {error}
+          </div>
+        )}
+
+        {!loading && products.length === 0 && searchParams.get('q') && (
+          <div className="max-w-2xl mx-auto mb-8 p-8 text-center text-muted-foreground border border-muted rounded-md">
+            <p className="text-lg">No products found for "{searchParams.get('q')}"</p>
+            <p className="text-sm mt-2">Try a different search term</p>
           </div>
         )}
 
