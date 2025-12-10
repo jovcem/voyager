@@ -188,4 +188,546 @@ Successful scrapes: 1
 Failed scrapes: 0
 Total products found: 15
 ============================================================
-[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hpython cli.py auto-scrape [?1l>[?2004l
+]2;python cli.py auto-scrape]1;python🤖 Starting auto scraper...
+============================================================
+
+📁 Found 1 provider(s) with scrape configs
+
+📦 Provider: neptun
+   Config: scrape.json
+   Enabled targets: 4/4
+
+   🔍 Mobos from Neptun
+      Category: motherboard
+      URL: https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Using NeptunScraper for https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Fetching https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251210_101319.html
+Parsing Neptun products from https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999...
+Found 19 product containers
+Successfully extracted 19 products
+Selenium driver closed
+      ✓ Found 19 products
+Saved 0 new products and 19 prices to database
+      ✓ Saved 19 products to database
+
+   🔍 Cases from Neptun
+      Category: case
+      URL: https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599
+Using NeptunScraper for https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599
+Fetching https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251210_101327.html
+Parsing Neptun products from https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599...
+Found 30 product containers
+Successfully extracted 30 products
+Selenium driver closed
+      ✓ Found 30 products
+Saved 0 new products and 30 prices to database
+      ✓ Saved 30 products to database
+
+   🔍 Psu from Neptun
+      Category: psu
+      URL: https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999
+Using NeptunScraper for https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999
+Fetching https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251210_101334.html
+Parsing Neptun products from https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999...
+Found 23 product containers
+Successfully extracted 23 products
+Selenium driver closed
+      ✓ Found 23 products
+Saved 0 new products and 23 prices to database
+      ✓ Saved 23 products to database
+
+   🔍 Monitors from Neptun
+      Category: monitor
+      URL: https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y;
+Using NeptunScraper for https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y;
+Fetching https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y; with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251210_101340.html
+Parsing Neptun products from https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y;...
+Found 14 product containers
+Successfully extracted 14 products
+Selenium driver closed
+      ✓ Found 14 products
+Saved 0 new products and 14 prices to database
+      ✓ Saved 14 products to database
+
+============================================================
+📊 SCRAPING SUMMARY
+============================================================
+Providers processed: 1
+URLs attempted: 4
+Successful scrapes: 4
+Failed scrapes: 0
+Total products found: 86
+============================================================
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggit pul[?1l>[?2004l
+]2;git pul]1;gitgit: 'pul' is not a git command. See 'git --help'.
+
+The most similar commands are
+	pull
+	push
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggit pull[?1l>[?2004l
+]2;git pull]1;gitAlready up to date.
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36m__pycache__[39;49m[0m [31mcli.py[39;49m[0m      [31mmigrate.py[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hppytho   p  ...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hl[?1l>[?2004l
+]2;ls -G -lah]1;ltotal 104
+drwxr-xr-x  19 jovchemalakovski  staff   608B Dec  9 21:42 [1m[36m.[39;49m[0m
+drwxr-xr-x   9 jovchemalakovski  staff   288B Dec  9 21:27 [1m[36m..[39;49m[0m
+-rw-------   1 jovchemalakovski  staff   152B Dec  8 21:27 .env
+-rw-r--r--@  1 jovchemalakovski  staff   252B Dec  9 20:47 .gitignore
+-rw-------@  1 jovchemalakovski  staff   3.2K Dec  8 23:54 README.md
+-rw-------@  1 jovchemalakovski  staff   4.6K Dec  9 10:05 README_NEW_STRUCTURE.md
+drwxr-xr-x@  4 jovchemalakovski  staff   128B Dec  8 23:50 [1m[36m__pycache__[39;49m[0m
+drwxr-xr-x@  4 jovchemalakovski  staff   128B Dec  9 20:47 [1m[36mdb[39;49m[0m
+-rw-------@  1 jovchemalakovski  staff   1.1K Dec  9 10:03 docker-compose.yml
+drwxr-xr-x@  6 jovchemalakovski  staff   192B Dec  9 00:59 [1m[36mdocs[39;49m[0m
+drwxr-xr-x@  4 jovchemalakovski  staff   128B Dec  9 20:47 [1m[36mexamples[39;49m[0m
+drwxr-xr-x@ 10 jovchemalakovski  staff   320B Dec  9 00:58 [1m[36mout[39;49m[0m
+-rw-------@  1 jovchemalakovski  staff   260B Dec  9 10:04 requirements.txt
+-rwx--x--x@  1 jovchemalakovski  staff   439B Dec  9 10:15 [31mrun_api.py[39;49m[0m
+drwxr-xr-x@  5 jovchemalakovski  staff   160B Dec  9 10:05 [1m[36mscripts[39;49m[0m
+drwxr-xr-x@ 10 jovchemalakovski  staff   320B Dec  9 10:06 [1m[36msrc[39;49m[0m
+drwxr-xr-x@  2 jovchemalakovski  staff    64B Dec  9 00:59 [1m[36mtests[39;49m[0m
+-rw-r--r--@  1 jovchemalakovski  staff    17K Dec 10 21:06 typescript
+drwxr-xr-x   7 jovchemalakovski  staff   224B Dec  8 21:45 [1m[36mvenv[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hvven
+[J[0mVENDOR  [J[1;36mvenv[0m/ [J[A[0m[27m[24m[24Cven[K v  ssource e venv[1m/[0m[0m/s bin[1m/[0m[0m/ac
+[J[A[42Ctivate[?1l>[?2004l
+[J]2;source venv/bin/activate]1;source[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hccd scripts[1m/[0m[0m [?1l>[?2004l
+]2;cd scripts]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36m__pycache__[39;49m[0m [31mcli.py[39;49m[0m      [31mmigrate.py[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hppython cli.py[1m [0m[0m migrate ion    e up[?1l>[?2004l
+]2;python cli.py migrate up]1;python✓ Migrations table ready
+
+Applying 1 pending migration(s)...
+
+✓ Applied: 004_add_categories_table
+
+✓ Successfully applied 1 migration(s)
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hppython migrate.py[1m [0m[0m clear[?1l>[?2004l
+]2;python migrate.py clear]1;python
+⚠️  WARNING: This will DELETE ALL data from products, prices, and stores tables!
+This action cannot be undone!
+
+Type 'yes' to continue: yes
+
+✓ Data cleared successfully
+  - Deleted 4 stores
+  - Deleted 237 products
+  - Deleted 397 prices
+  - Reset sequences
+
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker compose down -v[?1l>[?2004l
+]2;docker compose down -v]1;dockerDocker version 29.1.2, build 890dcca877
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hccoc  ddocker comop p  pose up -d[?1l>[?2004l
+]2;docker compose up -d]1;dockerunknown shorthand flag: 'd' in -d
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hl[?1l>[?2004l
+]2;ls -G -lah]1;ltotal 120
+drwxr-xr-x  19 jovchemalakovski  staff   608B Dec  9 21:42 [1m[36m.[39;49m[0m
+drwxr-xr-x   9 jovchemalakovski  staff   288B Dec  9 21:27 [1m[36m..[39;49m[0m
+-rw-------   1 jovchemalakovski  staff   152B Dec  8 21:27 .env
+-rw-r--r--@  1 jovchemalakovski  staff   252B Dec  9 20:47 .gitignore
+-rw-------@  1 jovchemalakovski  staff   3.2K Dec  8 23:54 README.md
+-rw-------@  1 jovchemalakovski  staff   4.6K Dec  9 10:05 README_NEW_STRUCTURE.md
+drwxr-xr-x@  4 jovchemalakovski  staff   128B Dec  8 23:50 [1m[36m__pycache__[39;49m[0m
+drwxr-xr-x@  5 jovchemalakovski  staff   160B Dec 10 21:48 [1m[36mdb[39;49m[0m
+-rw-------@  1 jovchemalakovski  staff   1.1K Dec  9 10:03 docker-compose.yml
+drwxr-xr-x@  6 jovchemalakovski  staff   192B Dec  9 00:59 [1m[36mdocs[39;49m[0m
+drwxr-xr-x@  4 jovchemalakovski  staff   128B Dec  9 20:47 [1m[36mexamples[39;49m[0m
+drwxr-xr-x@ 10 jovchemalakovski  staff   320B Dec  9 00:58 [1m[36mout[39;49m[0m
+-rw-------@  1 jovchemalakovski  staff   260B Dec  9 10:04 requirements.txt
+-rwx--x--x@  1 jovchemalakovski  staff   439B Dec  9 10:15 [31mrun_api.py[39;49m[0m
+drwxr-xr-x@  5 jovchemalakovski  staff   160B Dec 10 21:29 [1m[36mscripts[39;49m[0m
+drwxr-xr-x@ 10 jovchemalakovski  staff   320B Dec  9 10:06 [1m[36msrc[39;49m[0m
+drwxr-xr-x@  2 jovchemalakovski  staff    64B Dec  9 00:59 [1m[36mtests[39;49m[0m
+-rw-r--r--@  1 jovchemalakovski  staff    25K Dec 10 21:49 typescript
+drwxr-xr-x   7 jovchemalakovski  staff   224B Dec  8 21:45 [1m[36mvenv[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlcd ..docker compose up -ddown -v[?1l>[?2004l
+]2;docker compose down -v]1;dockerDocker version 29.1.2, build 890dcca877
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker compose down -v[22Dl                     [21Dcd ..docker compose up -d[?1l>[?2004l
+]2;docker compose up -d]1;dockerunknown shorthand flag: 'd' in -d
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;31m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker compose up -d  [?1l>[?2004l
+]2;docker compose up]1;dockerdocker: unknown command: docker compose
+
+Run 'docker --help' for more information
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;31m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker-compose up[?1l>[?2004l
+]2;docker-compose up]1;docker-compose[33mWARN[0m[0000] /Users/jovchemalakovski/code/voyager/backend/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[1A[1B[0G[?25l[+] up 1/1
+ [32m✔[0m Container voyager_postgres [32mCreated[0m                                                                                                       [34m0.0s [0m
+[?25hAttaching to voyager_postgres
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mPostgreSQL Database directory appears to contain a database; Skipping initialization
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:04.049 UTC [1] LOG:  starting PostgreSQL 15.15 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:04.049 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:04.049 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:04.051 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:04.053 UTC [28] LOG:  database system was shut down at 2025-12-10 20:50:58 UTC
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:04.057 UTC [1] LOG:  database system is ready to accept connections
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:36.199 UTC [1] LOG:  received fast shutdown request
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:36.201 UTC [1] LOG:  aborting any active transactions
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:36.201 UTC [41] FATAL:  terminating connection due to administrator command
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:36.203 UTC [42] FATAL:  terminating connection due to administrator command
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:36.209 UTC [1] LOG:  background worker "logical replication launcher" (PID 31) exited with exit code 1
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:36.210 UTC [26] LOG:  shutting down
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:36.211 UTC [26] LOG:  checkpoint starting: shutdown immediate
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:36.220 UTC [26] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.002 s, total=0.010 s; sync files=3, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:36.224 UTC [1] LOG:  database system is shut down
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36m[Kvoyager_postgres exited with code 0
+[0m[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker-compose up[?1l>[?2004l
+]2;docker-compose up]1;docker-compose[33mWARN[0m[0000] /Users/jovchemalakovski/code/voyager/backend/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[1A[1B[0G[?25l[+] up 2/2
+ [32m✔[0m Volume backend_postgres_data [32mCreated[0m                                                                                                     [34m0.0s [0m
+ [32m✔[0m Container voyager_postgres   [32mCreated[0m                                                                                                     [34m0.1s [0m
+[?25hAttaching to voyager_postgres
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mThe files belonging to this database system will be owned by user "postgres".
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mThis user must also own the server process.
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mThe database cluster will be initialized with locale "en_US.utf8".
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mThe default database encoding has accordingly been set to "UTF8".
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mThe default text search configuration will be set to "english".
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mData page checksums are disabled.
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mfixing permissions on existing directory /var/lib/postgresql/data/pgdata ... ok
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mcreating subdirectories ... ok
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mselecting dynamic shared memory implementation ... posix
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mselecting default max_connections ... 100
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mselecting default shared_buffers ... 128MB
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mselecting default time zone ... UTC
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mcreating configuration files ... ok
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mrunning bootstrap script ... ok
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0msh: locale: not found
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.196 UTC [35] WARNING:  no usable system locales were found
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mperforming post-bootstrap initialization ... ok
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0msyncing data to disk ... ok
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mSuccess. You can now start the database server using:
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m    pg_ctl -D /var/lib/postgresql/data/pgdata -l logfile start
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0minitdb: warning: enabling "trust" authentication for local connections
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0minitdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mwaiting for server to start....2025-12-10 20:51:43.576 UTC [41] LOG:  starting PostgreSQL 15.15 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.577 UTC [41] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.580 UTC [44] LOG:  database system was shut down at 2025-12-10 20:51:43 UTC
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.583 UTC [41] LOG:  database system is ready to accept connections
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m done
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mserver started
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE DATABASE
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m/usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/schema.sql
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE TABLE
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE TABLE
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE TABLE
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE TABLE
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE INDEX
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE FUNCTION
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mpsql:/docker-entrypoint-initdb.d/schema.sql:84: NOTICE:  trigger "trigger_update_products_updated_at" for relation "products" does not exist, skipping
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mDROP TRIGGER
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE TRIGGER
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE FUNCTION
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mpsql:/docker-entrypoint-initdb.d/schema.sql:100: NOTICE:  trigger "trigger_update_products_name_tsv" for relation "products" does not exist, skipping
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mDROP TRIGGER
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mCREATE TRIGGER
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mwaiting for server to shut down....2025-12-10 20:51:43.765 UTC [41] LOG:  received fast shutdown request
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.765 UTC [41] LOG:  aborting any active transactions
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.767 UTC [41] LOG:  background worker "logical replication launcher" (PID 47) exited with exit code 1
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.768 UTC [42] LOG:  shutting down
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.768 UTC [42] LOG:  checkpoint starting: shutdown immediate
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.810 UTC [42] LOG:  checkpoint complete: wrote 945 buffers (2.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.023 s, sync=0.018 s, total=0.043 s; sync files=337, longest=0.006 s, average=0.001 s; distance=4389 kB, estimate=4389 kB
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.813 UTC [41] LOG:  database system is shut down
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m done
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mserver stopped
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0mPostgreSQL init process complete; ready for start up.
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.882 UTC [1] LOG:  starting PostgreSQL 15.15 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.883 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.883 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.885 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.888 UTC [59] LOG:  database system was shut down at 2025-12-10 20:51:43 UTC
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:43.890 UTC [1] LOG:  database system is ready to accept connections
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:47.603 UTC [63] ERROR:  relation "public.schema_migrations" does not exist at character 18
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:51:47.603 UTC [63] STATEMENT:  SELECT sm.* FROM public.schema_migrations AS sm
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:52:33.906 UTC [1] LOG:  received fast shutdown request
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:52:33.907 UTC [1] LOG:  aborting any active transactions
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:52:33.908 UTC [63] FATAL:  terminating connection due to administrator command
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:52:33.908 UTC [65] FATAL:  terminating connection due to administrator command
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:52:33.915 UTC [64] FATAL:  terminating connection due to administrator command
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:52:33.917 UTC [1] LOG:  background worker "logical replication launcher" (PID 62) exited with exit code 1
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:52:33.918 UTC [57] LOG:  shutting down
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:52:33.919 UTC [57] LOG:  checkpoint starting: shutdown immediate
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:52:33.931 UTC [57] LOG:  checkpoint complete: wrote 46 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.008 s, sync=0.002 s, total=0.013 s; sync files=14, longest=0.002 s, average=0.001 s; distance=229 kB, estimate=229 kB
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36mvoyager_postgres  | [0m2025-12-10 20:52:33.934 UTC [1] LOG:  database system is shut down
+[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36m[Kvoyager_postgres exited with code 0
+[0m[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
+[0G[2K
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h

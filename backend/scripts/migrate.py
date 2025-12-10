@@ -219,15 +219,61 @@ def show_status():
     print()
 
 
+def clear_data():
+    """Clear products, prices, and stores data (development only)"""
+    print("\n⚠️  WARNING: This will DELETE ALL data from products, prices, and stores tables!")
+    print("This action cannot be undone!\n")
+
+    confirm = input("Type 'yes' to continue: ").strip().lower()
+
+    if confirm != 'yes':
+        print("Operation cancelled")
+        return
+
+    conn = get_db_connection()
+    try:
+        with conn.cursor() as cur:
+            # Delete all prices (must be first due to foreign key)
+            cur.execute("DELETE FROM prices")
+            prices_deleted = cur.rowcount
+
+            # Delete all products (must be before stores due to foreign key)
+            cur.execute("DELETE FROM products")
+            products_deleted = cur.rowcount
+
+            # Delete all stores
+            cur.execute("DELETE FROM stores")
+            stores_deleted = cur.rowcount
+
+            # Reset sequences
+            cur.execute("ALTER SEQUENCE prices_id_seq RESTART WITH 1")
+            cur.execute("ALTER SEQUENCE products_id_seq RESTART WITH 1")
+            cur.execute("ALTER SEQUENCE stores_id_seq RESTART WITH 1")
+
+        conn.commit()
+        print(f"\n✓ Data cleared successfully")
+        print(f"  - Deleted {stores_deleted} stores")
+        print(f"  - Deleted {products_deleted} products")
+        print(f"  - Deleted {prices_deleted} prices")
+        print(f"  - Reset sequences\n")
+    except Exception as e:
+        conn.rollback()
+        print(f"\n✗ Failed to clear data: {e}\n")
+        sys.exit(1)
+    finally:
+        conn.close()
+
+
 def main():
     """Main CLI entry point"""
     if len(sys.argv) < 2:
-        print("Usage: python migrate.py [up|down|status]")
+        print("Usage: python migrate.py [up|down|status|clear]")
         print()
         print("Commands:")
         print("  up      - Apply all pending migrations")
         print("  down    - Rollback the last migration")
         print("  status  - Show migration status")
+        print("  clear   - Clear products and prices data (dev only)")
         sys.exit(1)
 
     command = sys.argv[1].lower()
@@ -239,9 +285,11 @@ def main():
             migrate_down()
         elif command == 'status':
             show_status()
+        elif command == 'clear':
+            clear_data()
         else:
             print(f"Unknown command: {command}")
-            print("Use: up, down, or status")
+            print("Use: up, down, status, or clear")
             sys.exit(1)
     except psycopg2.OperationalError as e:
         print(f"✗ Database connection failed: {e}")
