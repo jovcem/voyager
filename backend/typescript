@@ -730,4 +730,361 @@ Run 'docker --help' for more information
 [0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[36m[Kvoyager_postgres exited with code 0
 [0m[0G7[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K8[2K
 [0G[2K
-[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[0G[2A[0G7[19;0H[2K[1;38;2;0;0;0;48;2;255;255;255mw[0m[2m Enable Watch[0m   [1;38;2;0;0;0;48;2;255;255;255md[0m[2m Detach[0m[0G8[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hl[?1l>[?2004l
+]2;ls -G -lah]1;ltotal 328
+drwxr-xr-x  19 jovchemalakovski  staff   608B Dec  9 21:42 [1m[36m.[39;49m[0m
+drwxr-xr-x   9 jovchemalakovski  staff   288B Dec  9 21:27 [1m[36m..[39;49m[0m
+-rw-------   1 jovchemalakovski  staff   152B Dec  8 21:27 .env
+-rw-r--r--@  1 jovchemalakovski  staff   252B Dec  9 20:47 .gitignore
+-rw-------@  1 jovchemalakovski  staff   3.2K Dec  8 23:54 README.md
+-rw-------@  1 jovchemalakovski  staff   4.6K Dec  9 10:05 README_NEW_STRUCTURE.md
+drwxr-xr-x@  4 jovchemalakovski  staff   128B Dec  8 23:50 [1m[36m__pycache__[39;49m[0m
+drwxr-xr-x@  5 jovchemalakovski  staff   160B Dec 10 21:48 [1m[36mdb[39;49m[0m
+-rw-------@  1 jovchemalakovski  staff   1.1K Dec  9 10:03 docker-compose.yml
+drwxr-xr-x@  6 jovchemalakovski  staff   192B Dec  9 00:59 [1m[36mdocs[39;49m[0m
+drwxr-xr-x@  4 jovchemalakovski  staff   128B Dec  9 20:47 [1m[36mexamples[39;49m[0m
+drwxr-xr-x@ 10 jovchemalakovski  staff   320B Dec  9 00:58 [1m[36mout[39;49m[0m
+-rw-------@  1 jovchemalakovski  staff   260B Dec  9 10:04 requirements.txt
+-rwx--x--x@  1 jovchemalakovski  staff   439B Dec  9 10:15 [31mrun_api.py[39;49m[0m
+drwxr-xr-x@  5 jovchemalakovski  staff   160B Dec 10 21:29 [1m[36mscripts[39;49m[0m
+drwxr-xr-x@ 10 jovchemalakovski  staff   320B Dec  9 10:06 [1m[36msrc[39;49m[0m
+drwxr-xr-x@  2 jovchemalakovski  staff    64B Dec  9 00:59 [1m[36mtests[39;49m[0m
+-rw-r--r--@  1 jovchemalakovski  staff    96K Dec 10 21:52 typescript
+drwxr-xr-x   7 jovchemalakovski  staff   224B Dec  8 21:45 [1m[36mvenv[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hccdc  ll scripts[1m/[0m[0m [?1l>[?2004l
+]2;ls -G -lah scripts]1;ltotal 32
+drwxr-xr-x@  5 jovchemalakovski  staff   160B Dec 10 21:29 [1m[36m.[39;49m[0m
+drwxr-xr-x  19 jovchemalakovski  staff   608B Dec  9 21:42 [1m[36m..[39;49m[0m
+drwxr-xr-x@  3 jovchemalakovski  staff    96B Dec  9 10:05 [1m[36m__pycache__[39;49m[0m
+-rwx--x--x@  1 jovchemalakovski  staff   311B Dec  9 09:59 [31mcli.py[39;49m[0m
+-rwx--x--x@  1 jovchemalakovski  staff   8.5K Dec 10 21:29 [31mmigrate.py[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J(venv) [01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hccd scripts[1m/[0m[0m [?1l>[?2004l
+]2;cd scripts]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hppython cli.py[1m [0m[0m scrape-by -p neptun -c gpu[?1l>[?2004l
+]2;python cli.py scrape-by -p neptun -c gpu]1;python✗ No targets found for category 'gpu' in neptun
+
+Available categories:
+  - case
+  - monitor
+  - motherboard
+  - psu
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hpython cli.py scrape-by -p neptun -c gpu   motherboard[?1l>[?2004l
+]2;python cli.py scrape-by -p neptun -c motherboard]1;python🔍 Scraping neptun - 1 target(s)
+   Category: motherboard
+
+📦 Mobos from Neptun
+   Category: motherboard
+   URL: https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Using NeptunScraper for https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Fetching https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251210_220310.html
+Parsing Neptun products from https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999...
+Found 19 product containers
+Successfully extracted 19 products
+Selenium driver closed
+   ✓ Found 19 products
+Created store: neptun.mk
+Using category: motherboard (ID: 1)
+Saved 19 new products and 19 prices to database
+   ✓ Saved 19 products to database
+
+============================================================
+📊 SUMMARY
+Total products found: 19
+============================================================
+
+Products:
+
++-----+-------------------------------------------------------+---------+
+|   # | Product Name                                          |   Price |
++=====+=======================================================+=========+
+|   1 | MB MSI Pro H610M-E LGA1700 mATX DDR5 5600MHz M.2 H... |    4399 |
++-----+-------------------------------------------------------+---------+
+|   2 | MB ASUS Prime B650M-R AM5 mATX DDR5 7200+MHz 2xM.2... |    6299 |
++-----+-------------------------------------------------------+---------+
+|   3 | MB ASUS Prime H610M-K LGA1700 mATX DDR5 5600MHz M.... |    4299 |
++-----+-------------------------------------------------------+---------+
+|   4 | MB MSI Pro Z790-P Wi-Fi LGA1700 ATX DDR5 7000+MHz ... |   12999 |
++-----+-------------------------------------------------------+---------+
+|   5 | MB MSI X870 Gaming Plus Wi-Fi AM5 ATX DDR5  8200MH... |   16999 |
++-----+-------------------------------------------------------+---------+
+|   6 | MB MSI PRO B650-S Wi-Fi AM5 ATX DDR5 7200+MHz 2xM.... |    9699 |
++-----+-------------------------------------------------------+---------+
+|   7 | MB MSI PRO B850-P Wi-Fi AM5 ATX DDR5 8200MHz 3xM.2... |   11999 |
++-----+-------------------------------------------------------+---------+
+|   8 | MB ASUS TUF Gaming X870-Plus Wi-Fi AM5 ATX DDR5 80... |   19999 |
++-----+-------------------------------------------------------+---------+
+|   9 | MB ASUS Prime X870-P AM5 ATX DDR5 8000+ MHz 4xM.2 ... |   15999 |
++-----+-------------------------------------------------------+---------+
+|  10 | MB ASUS Prime B650M-K AM5 mATX DDR5 8000+MHz 2xM.2... |    8199 |
++-----+-------------------------------------------------------+---------+
+|  11 | MB ASUS Prime A520M-K AM4 mATX DDR4 4866MHz M.2 HD... |    3499 |
++-----+-------------------------------------------------------+---------+
+|  12 | MB ASUS Prime B550M-K ARGB DDR4 AM4 5100MHz 2xM.2 ... |    4699 |
++-----+-------------------------------------------------------+---------+
+|  13 | MB ASUS TUF Gaming B650M-E AM5 mATX DDR5 7600+MHz ... |   10299 |
++-----+-------------------------------------------------------+---------+
+|  14 | MB ASUS Prime B760M-K LGA1700 mATX DDR5 8000MHz 2x... |    6099 |
++-----+-------------------------------------------------------+---------+
+|  15 | MB MSI Pro H610M-E DDR4 LGA1700 mATX 3200MHz M.2 H... |    3599 |
++-----+-------------------------------------------------------+---------+
+|  16 | MB ASUS Prime H610M-K D4 LGA1700 mATX DDR4 3200MHz... |    4299 |
++-----+-------------------------------------------------------+---------+
+|  17 | MB MSI Pro B550-A AM4 ATX DDR4 4400MHz 2xM.2 DP/HD... |    6399 |
++-----+-------------------------------------------------------+---------+
+|  18 | MB ASUS TUF Gaming B550M-Plus AM4 mATX DDR4 4866MH... |    7699 |
++-----+-------------------------------------------------------+---------+
+|  19 | MB MSI Pro A520M-A AM4 mATX DDR4 4600Mhz 1xM.2 HDM... |    2999 |
++-----+-------------------------------------------------------+---------+
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hpython cli.py scrape-by -p neptun -c motherboard[?1l>[?2004l
+]2;python cli.py scrape-by -p neptun -c motherboard]1;python🔍 Scraping neptun - 1 target(s)
+   Category: motherboard
+
+📦 Mobos from Neptun
+   Category: motherboard
+   URL: https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Using NeptunScraper for https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Fetching https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251210_220511.html
+Parsing Neptun products from https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999...
+Found 19 product containers
+Successfully extracted 19 products
+Selenium driver closed
+   ✓ Found 19 products
+Using category: motherboard (ID: 1)
+Saved 0 new products and 19 prices to database
+   ✓ Saved 19 products to database
+
+============================================================
+📊 SUMMARY
+Total products found: 19
+============================================================
+
+Products:
+
++-----+-------------------------------------------------------+---------+
+|   # | Product Name                                          |   Price |
++=====+=======================================================+=========+
+|   1 | MB MSI Pro H610M-E LGA1700 mATX DDR5 5600MHz M.2 H... |    4399 |
++-----+-------------------------------------------------------+---------+
+|   2 | MB ASUS Prime B650M-R AM5 mATX DDR5 7200+MHz 2xM.2... |    6299 |
++-----+-------------------------------------------------------+---------+
+|   3 | MB ASUS Prime H610M-K LGA1700 mATX DDR5 5600MHz M.... |    4299 |
++-----+-------------------------------------------------------+---------+
+|   4 | MB MSI Pro Z790-P Wi-Fi LGA1700 ATX DDR5 7000+MHz ... |   12999 |
++-----+-------------------------------------------------------+---------+
+|   5 | MB MSI X870 Gaming Plus Wi-Fi AM5 ATX DDR5  8200MH... |   16999 |
++-----+-------------------------------------------------------+---------+
+|   6 | MB MSI PRO B650-S Wi-Fi AM5 ATX DDR5 7200+MHz 2xM.... |    9699 |
++-----+-------------------------------------------------------+---------+
+|   7 | MB MSI PRO B850-P Wi-Fi AM5 ATX DDR5 8200MHz 3xM.2... |   11999 |
++-----+-------------------------------------------------------+---------+
+|   8 | MB ASUS TUF Gaming X870-Plus Wi-Fi AM5 ATX DDR5 80... |   19999 |
++-----+-------------------------------------------------------+---------+
+|   9 | MB ASUS Prime X870-P AM5 ATX DDR5 8000+ MHz 4xM.2 ... |   15999 |
++-----+-------------------------------------------------------+---------+
+|  10 | MB ASUS Prime B650M-K AM5 mATX DDR5 8000+MHz 2xM.2... |    8199 |
++-----+-------------------------------------------------------+---------+
+|  11 | MB ASUS Prime A520M-K AM4 mATX DDR4 4866MHz M.2 HD... |    3499 |
++-----+-------------------------------------------------------+---------+
+|  12 | MB ASUS Prime B550M-K ARGB DDR4 AM4 5100MHz 2xM.2 ... |    4699 |
++-----+-------------------------------------------------------+---------+
+|  13 | MB ASUS TUF Gaming B650M-E AM5 mATX DDR5 7600+MHz ... |   10299 |
++-----+-------------------------------------------------------+---------+
+|  14 | MB ASUS Prime B760M-K LGA1700 mATX DDR5 8000MHz 2x... |    6099 |
++-----+-------------------------------------------------------+---------+
+|  15 | MB MSI Pro H610M-E DDR4 LGA1700 mATX 3200MHz M.2 H... |    3599 |
++-----+-------------------------------------------------------+---------+
+|  16 | MB ASUS Prime H610M-K D4 LGA1700 mATX DDR4 3200MHz... |    4299 |
++-----+-------------------------------------------------------+---------+
+|  17 | MB MSI Pro B550-A AM4 ATX DDR4 4400MHz 2xM.2 DP/HD... |    6399 |
++-----+-------------------------------------------------------+---------+
+|  18 | MB ASUS TUF Gaming B550M-Plus AM4 mATX DDR4 4866MH... |    7699 |
++-----+-------------------------------------------------------+---------+
+|  19 | MB MSI Pro A520M-A AM4 mATX DDR4 4600Mhz 1xM.2 HDM... |    2999 |
++-----+-------------------------------------------------------+---------+
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hpython cli.py scrape-by -p neptun -c motherboard[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C             [?1l>[?2004l
+]2;python cli.py scrape-by -p neptun]1;python🔍 Scraping neptun - 4 target(s)
+
+📦 Mobos from Neptun
+   Category: motherboard
+   URL: https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Using NeptunScraper for https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Fetching https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251210_223703.html
+Parsing Neptun products from https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999...
+Found 19 product containers
+Successfully extracted 19 products
+Selenium driver closed
+   ✓ Found 19 products
+Using category: motherboard (ID: 1)
+Saved 0 new products and 19 prices to database
+   ✓ Saved 19 products to database
+
+📦 Cases from Neptun
+   Category: case
+   URL: https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599
+Using NeptunScraper for https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599
+Fetching https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251210_223710.html
+Parsing Neptun products from https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599...
+Found 30 product containers
+Successfully extracted 30 products
+Selenium driver closed
+   ✓ Found 30 products
+Using category: case (ID: 6)
+Saved 30 new products and 30 prices to database
+   ✓ Saved 30 products to database
+
+📦 Psu from Neptun
+   Category: psu
+   URL: https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999
+Using NeptunScraper for https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999
+Fetching https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251210_223717.html
+Parsing Neptun products from https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999...
+Found 23 product containers
+Successfully extracted 23 products
+Selenium driver closed
+   ✓ Found 23 products
+Using category: psu (ID: 7)
+Saved 23 new products and 23 prices to database
+   ✓ Saved 23 products to database
+
+📦 Monitors from Neptun
+   Category: monitor
+   URL: https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y;
+Using NeptunScraper for https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y;
+Fetching https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y; with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251210_223724.html
+Parsing Neptun products from https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y;...
+Found 14 product containers
+Successfully extracted 14 products
+Selenium driver closed
+   ✓ Found 14 products
+Using category: monitor (ID: 9)
+Saved 14 new products and 14 prices to database
+   ✓ Saved 14 products to database
+
+============================================================
+📊 SUMMARY
+Total products found: 86
+============================================================
+
+Products:
+
++-----+-------------------------------------------------------+---------+
+|   # | Product Name                                          |   Price |
++=====+=======================================================+=========+
+|   1 | MB MSI Pro H610M-E LGA1700 mATX DDR5 5600MHz M.2 H... |    4399 |
++-----+-------------------------------------------------------+---------+
+|   2 | MB ASUS Prime B650M-R AM5 mATX DDR5 7200+MHz 2xM.2... |    6299 |
++-----+-------------------------------------------------------+---------+
+|   3 | MB ASUS Prime H610M-K LGA1700 mATX DDR5 5600MHz M.... |    4299 |
++-----+-------------------------------------------------------+---------+
+|   4 | MB MSI Pro Z790-P Wi-Fi LGA1700 ATX DDR5 7000+MHz ... |   12999 |
++-----+-------------------------------------------------------+---------+
+|   5 | MB MSI X870 Gaming Plus Wi-Fi AM5 ATX DDR5  8200MH... |   16999 |
++-----+-------------------------------------------------------+---------+
+|   6 | MB MSI PRO B650-S Wi-Fi AM5 ATX DDR5 7200+MHz 2xM.... |    9699 |
++-----+-------------------------------------------------------+---------+
+|   7 | MB MSI PRO B850-P Wi-Fi AM5 ATX DDR5 8200MHz 3xM.2... |   11999 |
++-----+-------------------------------------------------------+---------+
+|   8 | MB ASUS TUF Gaming X870-Plus Wi-Fi AM5 ATX DDR5 80... |   19999 |
++-----+-------------------------------------------------------+---------+
+|   9 | MB ASUS Prime X870-P AM5 ATX DDR5 8000+ MHz 4xM.2 ... |   15999 |
++-----+-------------------------------------------------------+---------+
+|  10 | MB ASUS Prime B650M-K AM5 mATX DDR5 8000+MHz 2xM.2... |    8199 |
++-----+-------------------------------------------------------+---------+
+|  11 | MB ASUS Prime A520M-K AM4 mATX DDR4 4866MHz M.2 HD... |    3499 |
++-----+-------------------------------------------------------+---------+
+|  12 | MB ASUS Prime B550M-K ARGB DDR4 AM4 5100MHz 2xM.2 ... |    4699 |
++-----+-------------------------------------------------------+---------+
+|  13 | MB ASUS TUF Gaming B650M-E AM5 mATX DDR5 7600+MHz ... |   10299 |
++-----+-------------------------------------------------------+---------+
+|  14 | MB ASUS Prime B760M-K LGA1700 mATX DDR5 8000MHz 2x... |    6099 |
++-----+-------------------------------------------------------+---------+
+|  15 | MB MSI Pro H610M-E DDR4 LGA1700 mATX 3200MHz M.2 H... |    3599 |
++-----+-------------------------------------------------------+---------+
+|  16 | MB ASUS Prime H610M-K D4 LGA1700 mATX DDR4 3200MHz... |    4299 |
++-----+-------------------------------------------------------+---------+
+|  17 | MB MSI Pro B550-A AM4 ATX DDR4 4400MHz 2xM.2 DP/HD... |    6399 |
++-----+-------------------------------------------------------+---------+
+|  18 | MB ASUS TUF Gaming B550M-Plus AM4 mATX DDR4 4866MH... |    7699 |
++-----+-------------------------------------------------------+---------+
+|  19 | MB MSI Pro A520M-A AM4 mATX DDR4 4600Mhz 1xM.2 HDM... |    2999 |
++-----+-------------------------------------------------------+---------+
+|  20 | E-ATX Case Corsair iCue 4000X RGB Tempered Glass W... |    6999 |
++-----+-------------------------------------------------------+---------+
+|  21 | E-ATX Case Corsair iCue 3500X RGB Tempered Glass W... |    9499 |
++-----+-------------------------------------------------------+---------+
+|  22 | M-ATX Case NZXT H3 Flow Black Tempered Glass w/1x ... |    4199 |
++-----+-------------------------------------------------------+---------+
+|  23 | M-ATX Case NZXT H3 Flow White Tempered Glass w/1x ... |    4199 |
++-----+-------------------------------------------------------+---------+
+|  24 | E-ATX Case NZXT H9 Flow White Tempered Glass w/3x1... |    9799 |
++-----+-------------------------------------------------------+---------+
+|  25 | E-ATX Case NZXT H9 Flow Black Tempered Glass w/3x1... |    9799 |
++-----+-------------------------------------------------------+---------+
+|  26 | E-ATX Case NZXT H7 Flow RGB (2024) Black Tempered ... |    9899 |
++-----+-------------------------------------------------------+---------+
+|  27 | E-ATX Case NZXT H9 Flow RGB White Tempered Glass w... |   11599 |
++-----+-------------------------------------------------------+---------+
+|  28 | E-ATX Case NZXT H5 Flow RGB (2024) Black Tempered ... |    7999 |
++-----+-------------------------------------------------------+---------+
+|  29 | E-ATX Case NZXT H5 Flow RGB (2024) White Tempered ... |    7999 |
++-----+-------------------------------------------------------+---------+
+|  30 | ATX Case NZXT H6 Flow RGB White Tempered Glass w/3... |    8999 |
++-----+-------------------------------------------------------+---------+
+|  31 | ATX Case NZXT H6 Flow RGB Black Tempered Glass w/3... |    8999 |
++-----+-------------------------------------------------------+---------+
+|  32 | E-ATX Case White Shark Warhead 3 Tempered Glass Bl... |    3299 |
++-----+-------------------------------------------------------+---------+
+|  33 | E-ATX Case White Shark Warhead 3 Tempered Glass Wh... |    3699 |
++-----+-------------------------------------------------------+---------+
+|  34 | ATX Case Rampage Magnific Mesh Tempered Glass w/4x... |    2999 |
++-----+-------------------------------------------------------+---------+
+|  35 | ATX Case Rampage Craft Mesh Tempered Glass w/1x140... |    3399 |
++-----+-------------------------------------------------------+---------+
+|  36 | ATX Case Rampage Slider Mesh Tempered Glass w/4x12... |    2299 |
++-----+-------------------------------------------------------+---------+
+|  37 | ATX Case Rampage Triangle Tempered Glass w/4x120mm... |    2299 |
++-----+-------------------------------------------------------+---------+
+|  38 | ATX Case Cougar MX360 RGB Tempered Glass w/1x120mm... |    1999 |
++-----+-------------------------------------------------------+---------+
+|  39 | E-ATX Case Cougar Duoface RGB Tempered Glass w/2x1... |    3999 |
++-----+-------------------------------------------------------+---------+
+|  40 | E-ATX Case Cougar Airface Pro RGB Tempered Glass w... |    4799 |
++-----+-------------------------------------------------------+---------+
+|  41 | ATX Case Corsair 3000D Tempered Glass White w/3x12... |    5999 |
++-----+-------------------------------------------------------+---------+
+|  42 | ATX Case IG-Max E0901 1F Torpedo Tempered Glass w/... |    1399 |
++-----+-------------------------------------------------------+---------+
+|  43 | ATX Case Raidmax Infinita i802 Air Tempered Glass ... |    4399 |
++-----+-------------------------------------------------------+---------+
+|  44 | ATX Case IG-Max NJ1903-7700L Reflex 4F Tempered Gl... |    3299 |
++-----+-------------------------------------------------------+---------+
+|  45 | ATX Case Chieftec GS-01B-OP Tempered Glass w/4x120... |    3299 |
++-----+-------------------------------------------------------+---------+
+|  46 | ATX Case Raidmax Vector V155 Tempered Glass w/4x12... |    3199 |
++-----+-------------------------------------------------------+---------+
+|  47 | ATX Case Raidmax X921 Tempered Glass w/4x120mm RGB... |    3299 |
++-----+-------------------------------------------------------+---------+
+|  48 | ATX Case ENDORFY Signum 300 ARGB Tempered Glass w/... |    4199 |
++-----+-------------------------------------------------------+---------+
+|  49 | E-ATX Case Rampage Prime Tempered Glass w/4x120mm ... |    3199 |
++-----+-------------------------------------------------------+---------+
+|  50 | PSU Corsair RM750 750W 80 PLUS Gold White Fully Mo... |    9499 |
++-----+-------------------------------------------------------+---------+
+
+... and 36 more products
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J(venv) [01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h

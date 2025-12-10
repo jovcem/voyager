@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
 import { Search, ExternalLink, Sun, Moon, X } from 'lucide-react'
 
 function App() {
@@ -160,7 +161,12 @@ function App() {
                         }`}
                       >
                       <td className="p-4">
-                        <div className="font-medium">{product.name}</div>
+                        <div className="flex items-center gap-2">
+                          <div className="font-medium">{product.name}</div>
+                          {product.category && (
+                            <Badge variant="outline">{product.category}</Badge>
+                          )}
+                        </div>
                       </td>
                       <td className="p-4 text-muted-foreground">{product.store}</td>
                       <td className="p-4 text-right">

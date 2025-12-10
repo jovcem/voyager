@@ -11,13 +11,14 @@ from .repository import DatabaseRepository
 repo = DatabaseRepository()
 
 
-def scrape_url(url):
+def scrape_url(url, category=None):
     """
     Scrape a URL and extract product information
     Uses site-specific scrapers when available, falls back to generic scraper
 
     Args:
         url: URL to scrape
+        category: Category slug for products (optional)
 
     Returns:
         List of product dictionaries with name, price, url
@@ -29,7 +30,7 @@ def scrape_url(url):
 
     if scraper_class:
         print(f"Using {scraper_class.__name__} for {url}")
-        scraper = scraper_class(url)
+        scraper = scraper_class(url, category=category)
         return scraper.scrape()
     else:
         print(f"No specific scraper found for {url}, using generic scraper")
@@ -131,13 +132,14 @@ def _generic_scrape(url):
         return []
 
 
-def save_products(products, url):
+def save_products(products, url, category=None):
     """
     Save scraped products to database using repository
 
     Args:
         products: List of product dictionaries
         url: Source URL
+        category: Category slug for products (optional)
 
     Returns:
         Number of products saved
@@ -147,7 +149,7 @@ def save_products(products, url):
         return 0
 
     # Use repository to save products
-    products_saved, prices_saved = repo.save_scraped_products(products, url)
+    products_saved, prices_saved = repo.save_scraped_products(products, url, category)
     print(f"Saved {products_saved} new products and {prices_saved} prices to database")
     return prices_saved
 

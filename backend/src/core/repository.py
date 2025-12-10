@@ -97,6 +97,30 @@ class DatabaseRepository:
         finally:
             conn.close()
 
+    # Category operations
+
+    def get_category_id_by_slug(self, slug: str) -> Optional[int]:
+        """
+        Get category ID by slug
+
+        Args:
+            slug: Category slug (e.g., 'motherboard', 'cpu')
+
+        Returns:
+            Category ID or None if not found
+        """
+        if not slug:
+            return None
+
+        conn = self.get_connection()
+        try:
+            with conn.cursor() as cur:
+                cur.execute("SELECT id FROM categories WHERE slug = %s", (slug,))
+                result = cur.fetchone()
+                return result[0] if result else None
+        finally:
+            conn.close()
+
     # Product operations
 
     def get_or_create_product(self, store_id: int, name: str, url: str, image: str = None) -> int:
@@ -146,18 +170,40 @@ class DatabaseRepository:
 
     def get_product_by_id(self, product_id: int) -> Optional[Dict]:
         """
-        Get product by ID
+        Get product by ID with latest price and store name
 
         Args:
             product_id: Product ID
 
         Returns:
-            Product dictionary or None
+            Product dictionary with current price and store name or None
         """
         conn = self.get_connection()
         try:
             with conn.cursor(cursor_factory=RealDictCursor) as cur:
-                cur.execute("SELECT * FROM products WHERE id = %s", (product_id,))
+                cur.execute(
+                    """
+                    SELECT
+                        p.*,
+                        s.name as store_name,
+                        c.name as category,
+                        pr.price as current_price,
+                        pr.currency,
+                        pr.scraped_at as last_price_update
+                    FROM products p
+                    JOIN stores s ON p.store_id = s.id
+                    LEFT JOIN categories c ON p.category_id = c.id
+                    LEFT JOIN LATERAL (
+                        SELECT price, currency, scraped_at
+                        FROM prices
+                        WHERE product_id = p.id
+                        ORDER BY scraped_at DESC
+                        LIMIT 1
+                    ) pr ON true
+                    WHERE p.id = %s
+                    """,
+                    (product_id,)
+                )
                 return cur.fetchone()
         finally:
             conn.close()
@@ -271,13 +317,14 @@ class DatabaseRepository:
 
     # Batch operations
 
-    def save_scraped_products(self, products: List[Dict], source_url: str) -> Tuple[int, int]:
+    def save_scraped_products(self, products: List[Dict], source_url: str, category_slug: str = None) -> Tuple[int, int]:
         """
         Save multiple scraped products to database in a single transaction
 
         Args:
-            products: List of product dictionaries with keys: name, price, url, image (optional)
+            products: List of product dictionaries with keys: name, price, url, image (optional), category (optional)
             source_url: Source URL where products were scraped from
+            category_slug: Category slug for all products (optional, can also be in individual product dicts)
 
         Returns:
             Tuple of (products_saved, prices_saved)
@@ -287,13 +334,20 @@ class DatabaseRepository:
                 {'name': 'Product 1', 'price': 19.99, 'url': 'https://...', 'image': 'https://...'},
                 {'name': 'Product 2', 'price': 29.99, 'url': 'https://...'},
             ]
-            saved, prices = repo.save_scraped_products(products, 'https://store.com')
+            saved, prices = repo.save_scraped_products(products, 'https://store.com', 'motherboard')
         """
         if not products:
             return 0, 0
 
         # Get or create store
         store_id = self.get_or_create_store(source_url)
+
+        # Look up category_id if category_slug provided
+        category_id = None
+        if category_slug:
+            category_id = self.get_category_id_by_slug(category_slug)
+            if category_id:
+                print(f"Using category: {category_slug} (ID: {category_id})")
 
         conn = self.get_connection()
         products_saved = 0
@@ -303,32 +357,50 @@ class DatabaseRepository:
             with conn.cursor() as cur:
                 for product in products:
                     try:
-                        # Get or create product
+                        # Check if product exists
                         cur.execute(
                             "SELECT id FROM products WHERE store_id = %s AND url = %s",
                             (store_id, product['url'])
                         )
                         result = cur.fetchone()
 
+                        # Determine category_id for this product
+                        # Priority: product-level category > batch-level category_slug
+                        prod_category_id = category_id
+                        if 'category' in product:
+                            prod_category_id = self.get_category_id_by_slug(product['category'])
+
                         if result:
                             product_id = result[0]
-                            # Update image if provided
-                            image = product.get('image')
-                            if image:
+                            # Update image and category if provided
+                            update_fields = []
+                            update_values = []
+
+                            if product.get('image'):
+                                update_fields.append("image = %s")
+                                update_values.append(product['image'])
+
+                            if prod_category_id is not None:
+                                update_fields.append("category_id = %s")
+                                update_values.append(prod_category_id)
+
+                            if update_fields:
+                                update_values.append(product_id)
                                 cur.execute(
-                                    "UPDATE products SET image = %s WHERE id = %s",
-                                    (image, product_id)
+                                    f"UPDATE products SET {', '.join(update_fields)}, last_scraped_at = CURRENT_TIMESTAMP WHERE id = %s",
+                                    tuple(update_values)
                                 )
                         else:
+                            # Create new product
                             cur.execute(
-                                "INSERT INTO products (store_id, name, url, image) VALUES (%s, %s, %s, %s) RETURNING id",
-                                (store_id, product['name'], product['url'], product.get('image'))
+                                "INSERT INTO products (store_id, name, url, image, category_id, last_scraped_at) VALUES (%s, %s, %s, %s, %s, CURRENT_TIMESTAMP) RETURNING id",
+                                (store_id, product['name'], product['url'], product.get('image'), prod_category_id)
                             )
                             product_id = cur.fetchone()[0]
                             products_saved += 1
 
                         # Insert price
-                        currency = product.get('currency', 'USD')
+                        currency = product.get('currency', 'MKD')
                         cur.execute(
                             "INSERT INTO prices (product_id, price, currency) VALUES (%s, %s, %s)",
                             (product_id, product['price'], currency)
@@ -412,11 +484,13 @@ class DatabaseRepository:
                         p.name,
                         p.url,
                         s.name as store,
+                        c.name as category,
                         pr.price,
                         pr.currency,
                         pr.scraped_at
                     FROM products p
                     JOIN stores s ON p.store_id = s.id
+                    LEFT JOIN categories c ON p.category_id = c.id
                     LEFT JOIN LATERAL (
                         SELECT price, currency, scraped_at
                         FROM prices

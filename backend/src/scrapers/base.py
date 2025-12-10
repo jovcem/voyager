@@ -24,14 +24,16 @@ class BaseScraper(ABC):
     # Set to True in subclasses if the site requires JavaScript rendering
     REQUIRES_JAVASCRIPT = False
 
-    def __init__(self, url):
+    def __init__(self, url, category=None):
         """
         Initialize the scraper
 
         Args:
             url: URL to scrape
+            category: Category slug for products (optional)
         """
         self.url = url
+        self.category = category
         self.soup = None
         self.products = []
         self.driver = None

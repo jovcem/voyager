@@ -94,15 +94,15 @@ def run_auto_scraper(save_to_db: bool = True) -> Dict:
                 print(f"      URL: {url}")
 
                 try:
-                    # Scrape the URL
-                    products = scrape_url(url)
+                    # Scrape the URL with category
+                    products = scrape_url(url, category=category)
 
                     if products:
                         print(f"      ✓ Found {len(products)} products")
 
                         # Save to database if requested
                         if save_to_db:
-                            saved_count = save_products(products, url)
+                            saved_count = save_products(products, url, category=category)
                             print(f"      ✓ Saved {saved_count} products to database")
 
                         results['successful_scrapes'] += 1

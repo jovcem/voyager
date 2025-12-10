@@ -41,7 +41,8 @@ function ProductDetail() {
         if (historyResponse.ok) {
           const historyData = await historyResponse.json()
           console.log('Price history:', historyData)
-          setPriceHistory(historyData.history || [])
+          // Reverse the array so oldest is on the left, newest on the right
+          setPriceHistory((historyData.history || []).reverse())
         }
       } catch (err) {
         setError(err.message)
@@ -120,12 +121,18 @@ function ProductDetail() {
               <div className="flex-1 space-y-6">
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <p className="text-sm text-muted-foreground">Product ID</p>
-                    <p className="font-medium">{product.id}</p>
+                    <p className="text-sm text-muted-foreground">Current Price</p>
+                    <p className="font-medium text-lg">
+                      {product.current_price ? (
+                        <>
+                          <span>{new Intl.NumberFormat('mk-MK', { minimumFractionDigits: 0 }).format(product.current_price)}</span> <span className="text-sm">ден</span>
+                        </>
+                      ) : 'N/A'}
+                    </p>
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground">Store ID</p>
-                    <p className="font-medium">{product.store_id}</p>
+                    <p className="text-sm text-muted-foreground">Store</p>
+                    <p className="font-medium">{product.store_name || product.store_id}</p>
                   </div>
                   {product.category && (
                     <div>
@@ -134,9 +141,9 @@ function ProductDetail() {
                     </div>
                   )}
                   <div>
-                    <p className="text-sm text-muted-foreground">Created At</p>
+                    <p className="text-sm text-muted-foreground">Last Scraped</p>
                     <p className="font-medium">
-                      {new Date(product.created_at).toLocaleString()}
+                      {product.last_price_update ? new Date(product.last_price_update).toLocaleString() : 'N/A'}
                     </p>
                   </div>
                 </div>
