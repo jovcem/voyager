@@ -1,0 +1,191 @@
+Script started on Tue Dec  9 21:42:30 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend]1;..yager/backend]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend\[0m[27m[24m[J[01;32m➜  [36mbackend[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [Kscripts[?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hl[?1l>[?2004l
+]2;ls -G -lah]1;ltotal 24
+drwxr-xr-x@  5 jovchemalakovski  staff   160B Dec  9 10:05 [1m[36m.[39;49m[0m
+drwxr-xr-x  19 jovchemalakovski  staff   608B Dec  9 21:42 [1m[36m..[39;49m[0m
+drwxr-xr-x@  3 jovchemalakovski  staff    96B Dec  9 10:05 [1m[36m__pycache__[39;49m[0m
+-rwx--x--x@  1 jovchemalakovski  staff   311B Dec  9 09:59 [31mcli.py[39;49m[0m
+-rwx--x--x@  1 jovchemalakovski  staff   6.8K Dec  9 10:03 [31mmigrate.py[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hppython cli.py[1m [0m[0m auto-scrate  pe --dry-t run[?1l>[?2004l
+]2;python cli.py auto-scrape --dry-run]1;python🔍 Running in DRY RUN mode (not saving to database)
+
+🤖 Starting auto scraper...
+============================================================
+
+📁 Found 1 provider(s) with scrape configs
+
+📦 Provider: neptun
+   Config: scrape.json
+   Enabled targets: 1/1
+
+   🔍 Mobos from Neptun
+      Category: motherboard
+      URL: https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Using NeptunScraper for https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Fetching https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251209_214255.html
+Parsing Neptun products from https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999...
+Found 19 product containers
+Successfully extracted 19 products
+Selenium driver closed
+      ✓ Found 19 products
+
+============================================================
+📊 SCRAPING SUMMARY
+============================================================
+Providers processed: 1
+URLs attempted: 1
+Successful scrapes: 1
+Failed scrapes: 0
+Total products found: 19
+============================================================
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hpython cli.py auto-scrape --dry-run         [?1l>[?2004l
+]2;python cli.py auto-scrape]1;python🤖 Starting auto scraper...
+============================================================
+
+📁 Found 1 provider(s) with scrape configs
+
+📦 Provider: neptun
+   Config: scrape.json
+   Enabled targets: 2/2
+
+   🔍 Mobos from Neptun
+      Category: motherboard
+      URL: https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Using NeptunScraper for https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Fetching https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251209_214354.html
+Parsing Neptun products from https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999...
+Found 19 product containers
+Successfully extracted 19 products
+Selenium driver closed
+      ✓ Found 19 products
+Saved 19 new products and 19 prices to database
+      ✓ Saved 19 products to database
+
+   🔍 Cases from Neptun
+      Category: case
+      URL: https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599
+Using NeptunScraper for https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599
+Fetching https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251209_214402.html
+Parsing Neptun products from https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599...
+Found 30 product containers
+Successfully extracted 30 products
+Selenium driver closed
+      ✓ Found 30 products
+Saved 30 new products and 30 prices to database
+      ✓ Saved 30 products to database
+
+============================================================
+📊 SCRAPING SUMMARY
+============================================================
+Providers processed: 1
+URLs attempted: 2
+Successful scrapes: 2
+Failed scrapes: 0
+Total products found: 49
+============================================================
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hpython cli.py auto-scrape [?1l>[?2004l
+]2;python cli.py auto-scrape]1;python🤖 Starting auto scraper...
+============================================================
+
+📁 Found 1 provider(s) with scrape configs
+
+📦 Provider: neptun
+   Config: scrape.json
+   Enabled targets: 3/3
+
+   🔍 Mobos from Neptun
+      Category: motherboard
+      URL: https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Using NeptunScraper for https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999
+Fetching https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251209_214724.html
+Parsing Neptun products from https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999...
+Found 19 product containers
+Successfully extracted 19 products
+Selenium driver closed
+      ✓ Found 19 products
+Saved 0 new products and 19 prices to database
+      ✓ Saved 19 products to database
+
+   🔍 Cases from Neptun
+      Category: case
+      URL: https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599
+Using NeptunScraper for https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599
+Fetching https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251209_214731.html
+Parsing Neptun products from https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599...
+Found 30 product containers
+Successfully extracted 30 products
+Selenium driver closed
+      ✓ Found 30 products
+Saved 0 new products and 30 prices to database
+      ✓ Saved 30 products to database
+
+   🔍 Psu from Neptun
+      Category: psu
+      URL: https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999
+Using NeptunScraper for https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999
+Fetching https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999 with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251209_214738.html
+Parsing Neptun products from https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999...
+Found 23 product containers
+Successfully extracted 23 products
+Selenium driver closed
+      ✓ Found 23 products
+Saved 23 new products and 23 prices to database
+      ✓ Saved 23 products to database
+
+============================================================
+📊 SCRAPING SUMMARY
+============================================================
+Providers processed: 1
+URLs attempted: 3
+Successful scrapes: 3
+Failed scrapes: 0
+Total products found: 72
+============================================================
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hpython cli.py auto-scrape [?1l>[?2004l
+]2;python cli.py auto-scrape]1;python🤖 Starting auto scraper...
+============================================================
+
+📁 Found 1 provider(s) with scrape configs
+
+📦 Provider: neptun
+   Config: scrape.json
+   Enabled targets: 1/4
+
+   🔍 Monitors from Neptun
+      Category: monitor
+      URL: https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y;
+Using NeptunScraper for https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y;
+Fetching https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y; with Selenium (JavaScript enabled)...
+Waiting for JavaScript content to load...
+Saved HTML response to: /Users/jovchemalakovski/code/voyager/backend/src/out/NeptunScraper_20251209_215133.html
+Parsing Neptun products from https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y;...
+Found 15 product containers
+Successfully extracted 15 products
+Selenium driver closed
+      ✓ Found 15 products
+Saved 15 new products and 15 prices to database
+      ✓ Saved 15 products to database
+
+============================================================
+📊 SCRAPING SUMMARY
+============================================================
+Providers processed: 1
+URLs attempted: 1
+Successful scrapes: 1
+Failed scrapes: 0
+Total products found: 15
+============================================================
+[1m[7m%[27m[1m[0m                                                                                                                                                 ]2;jovchemalakovski@Jovches-MacBook-Air:~/code/voyager/backend/scripts]1;..ckend/scripts]7;file://Jovches-MacBook-Air.local/Users/jovchemalakovski/code/voyager/backend/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h

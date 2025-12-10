@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://www.neptun.mk/Maticni_ploci.nspx?items=100&priceRange=3499_20999",
+    "category": "motherboard",
+    "enabled": false,
+    "description": "Mobos from Neptun",
+    "scrape_frequency": "daily"
+  },
+  {
+    "url": "https://www.neptun.mk/Kukista.nspx?items=100&priceRange=1699_11599",
+    "category": "case",
+    "enabled": false,
+    "description": "Cases from Neptun",
+    "scrape_frequency": "daily"
+  },
+  {
+    "url": "https://www.neptun.mk/Napojuvana.nspx?items=100&priceRange=3199_14999",
+    "category": "psu",
+    "enabled": false,
+    "description": "Psu from Neptun",
+    "scrape_frequency": "daily"
+  },
+  {
+    "url": "https://www.neptun.mk/monitori1.nspx?items=100&priceRange=7299_104999&yn=20:Y;",
+    "category": "monitor",
+    "enabled": true,
+    "description": "Monitors from Neptun",
+    "scrape_frequency": "daily"
+  }
+]

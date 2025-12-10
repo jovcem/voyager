@@ -7,6 +7,7 @@ import click
 import json
 import sys
 from ..core.scraper import scrape_url, save_products, list_products
+from ..core.auto_scraper import run_auto_scraper
 from tabulate import tabulate
 
 
@@ -159,6 +160,40 @@ def migrate(action):
     migrate_script = os.path.join(backend_dir, 'scripts', 'migrate.py')
     result = subprocess.run(['python', migrate_script, action], capture_output=False)
     sys.exit(result.returncode)
+
+
+@cli.command('auto-scrape')
+@click.option('--save-db/--no-save-db', default=True, help='Save products to database (default: True)')
+@click.option('--dry-run', is_flag=True, help='Run without saving to database')
+def auto_scrape(save_db, dry_run):
+    """
+    Automatically scrape all configured providers
+
+    Reads scrape.json files from each provider folder and executes scraping.
+
+    Example:
+        python cli.py auto-scrape
+        python cli.py auto-scrape --dry-run
+        python cli.py auto-scrape --no-save-db
+    """
+    # Dry run overrides save-db
+    if dry_run:
+        save_db = False
+        click.echo("🔍 Running in DRY RUN mode (not saving to database)\n")
+
+    try:
+        results = run_auto_scraper(save_to_db=save_db)
+
+        # Exit with error code if all scrapes failed
+        if results['total_urls'] > 0 and results['successful_scrapes'] == 0:
+            click.echo("\n❌ All scrapes failed", err=True)
+            sys.exit(1)
+
+    except Exception as e:
+        click.echo(f"\n❌ Fatal error: {e}", err=True)
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
 
 
 if __name__ == '__main__':
